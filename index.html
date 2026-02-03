@@ -3,11 +3,15 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Další odjezdy – PRAHA, Kobylisy &amp; MĚLNÍK, Aut. Nádr. — Prague Bus Simulator [Roblox]</title>
+    <title>Další odjezdy / Next departures — Prague Bus Simulator [Roblox]</title>
     <style>
         @font-face {
             font-family: 'Pixellari';
             src: url('Pixellari.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'OohBahn';
+            src: url('OohBahn.ttf') format('truetype');
         }
         body {
             background-color: #000000;
@@ -29,7 +33,48 @@
   </head>
 <body>
 
-<table align="left" border="0" border-color="#222222" cellpadding="1" cellspacing="0" width="25%" style="margin-right: 10px;" id="kobylisy">
+<table align="left" border="0" border-color="#222222" cellpadding="1" cellspacing="0" width="25%" style="margin-right: 10px; margin-bottom: 10px;"
+ id="borislavka">
+    <thead>
+	<tr>
+	    <td colspan="3" bgcolor="#121212"><center><b><font color="#EEEE10" face="Arial">B&nbsp;O&nbsp;Ř&nbsp;I&nbsp;S&nbsp;L&nbsp;A&nbsp;V&nbsp;K&nbsp;A</font></b></center></td>
+        </tr>
+        <tr bgcolor="#222222">
+            <th>Linka</th>
+            <th>Směr</th>
+            <th>Odjezd</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tr bgcolor="#223311">
+        <td colspan="3"><b><font color="#BBDD00" face="Pixellari"><marquee direction="left" scrollamount="8"> + + +&nbsp;&nbsp;Pro linky 20, 131, 144 a 200 prosím sledujte vyvěšený jízdní řád.&nbsp;&nbsp;+ + + </marquee></font></b></td>
+    <!--<td colspan="1"><font color="DDBB00" face="OohBahn"><></font></td>-->
+    </tr>
+</table>
+
+<table align="left" border="0" border-color="#222222" cellpadding="1" cellspacing="0" width="25%" style="margin-right: 10px; margin-bottom: 10px;"
+ id="goetheho">
+    <thead>
+	<tr>
+	    <td colspan="3" bgcolor="#121212"><center><b><font color="#FFFFFF" face="Arial">G&nbsp;O&nbsp;E&nbsp;T&nbsp;H&nbsp;E&nbsp;H&nbsp;O</font></b></center></td>
+        </tr>
+        <tr bgcolor="#222222">
+            <th>Linka</th>
+            <th>Směr</th>
+            <th>Odjezd</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tr bgcolor="#223311">
+        <td colspan="3"><b><font color="#BBDD00" face="Pixellari"><marquee direction="left" scrollamount="8"> + + +&nbsp;&nbsp;Pro linky 20, 131 a 200 prosím sledujte vyvěšený jízdní řád.&nbsp;&nbsp;+ + + </marquee></font></b></td>
+    <!--<td colspan="1"><font color="DDBB00" face="OohBahn"><></font></td>-->
+    </tr>
+</table>
+
+<table align="left" border="0" border-color="#222222" cellpadding="1" cellspacing="0" width="25%" style="margin-right: 10px; margin-bottom: 10px;"
+ id="kobylisy">
     <thead>
 	<tr>
 	    <td colspan="3" bgcolor="#121212"><center><b><font color="#FFFFFF" face="Arial">K&nbsp;O&nbsp;B&nbsp;Y&nbsp;L&nbsp;I&nbsp;S&nbsp;Y</font></b></center></td>
@@ -43,14 +88,16 @@
     <tbody>
     </tbody>
     <tr bgcolor="#223311">
-        <td colspan="3"><b><font color="#bbdd00" face="Pixellari"><marquee direction="left" scrollamount="8"> + + +&nbsp;&nbsp;Pro linky 177 a 200 prosím sledujte vyvěšený jízdní řád.&nbsp;&nbsp;+ + + </marquee></font></b></td>
+        <td colspan="3"><b><font color="#BBDD00" face="Pixellari"><marquee direction="left" scrollamount="8"> + + +&nbsp;&nbsp;Pro linky 177 a 200 prosím sledujte vyvěšený jízdní řád.&nbsp;&nbsp;+ + + </marquee></font></b></td>
+    <!--<td colspan="1"><font color="DDBB00" face="OohBahn"><></font></td>-->
     </tr>
 </table>
 
-<table align="left" border="0" border-color="#222222" cellpadding="1" cellspacing="0" width="25%" style="margin-right: 10px;" id="melnik">
+<table align="left" border="0" border-color="#222222" cellpadding="1" cellspacing="0" width="25%" style="margin-right: 10px; margin-bottom: 10px;"
+ id="melnik">
     <thead>
 	<tr>
-	    <td colspan="3" bgcolor="#121212"><center><b><font color="#FFFFFF" face="Arial">M&nbsp;Ě&nbsp;L&nbsp;N&nbsp;I&nbsp;K,&nbsp;&nbsp;A&nbsp;U&nbsp;T&nbsp;O&nbsp;B&nbsp;U&nbsp;S&nbsp;O&nbsp;V&nbsp;É&nbsp;&nbsp;N&nbsp;Á&nbsp;D&nbsp;R&nbsp;A&nbsp;Ž&nbsp;Í</font></b></center></td>
+	    <td colspan="3" bgcolor="#121212"><center><b><font color="#FFFFFF" face="Arial">M&nbsp;Ě&nbsp;L&nbsp;N&nbsp;I&nbsp;K</font></b></center></td>
         </tr>
         <tr bgcolor="#222222">
             <th>Linka</th>
@@ -61,33 +108,235 @@
     <tbody>
     </tbody>
     <tr bgcolor="#223311">
-        <td colspan="3"><center><b><font color="#bbdd00" face="Pixellari"><!--<marquee direction="left" scrollamount="0"> + + +&nbsp;&nbsp;-->»»»&nbsp;&nbsp;PŘEJEME VÁM ŠT'ASTNOU CESTU !&nbsp;&nbsp;»»»<!--&nbsp;&nbsp;+ + + </marquee>--></font></b></center></td>
+        <td colspan="3"><center><b><font color="#BBDD00" face="Pixellari"><!--<marquee direction="left" scrollamount="8"> + + +&nbsp;&nbsp;-->PŘEJEME VÁM ŠT'ASTNOU CESTU !</b>&nbsp;»»»<!--&nbsp;&nbsp;+ + + </marquee>--></font></b></center></td>
+    <!--<td colspan="1"><font color="DDBB00" face="OohBahn"><></font></td>-->
+    </tr>
+</table>
+
+<table align="left" border="0" border-color="#222222" cellpadding="1" cellspacing="0" width="25%" style="margin-right: 10px; margin-bottom: 10px;"
+ id="sibirskenamesti">
+    <thead>
+	<tr>
+	    <td colspan="3" bgcolor="#121212"><center><b><font color="#FFFFFF" face="Arial">S&nbsp;I&nbsp;B&nbsp;I&nbsp;Ř&nbsp;S&nbsp;K&nbsp;É&nbsp;&nbsp;N&nbsp;Á&nbsp;M&nbsp;Ě&nbsp;S&nbsp;T&nbsp;Í</font></b></center></td>
+        </tr>
+        <tr bgcolor="#222222">
+            <th>Linka</th>
+            <th>Směr</th>
+            <th>Odjezd</th>
+        </tr>
+    </thead>
+    <tbody>
+    </tbody>
+    <tr bgcolor="#223311">
+        <td colspan="3"><b><font color="#BBDD00" face="Pixellari"><marquee direction="left" scrollamount="8"> + + +&nbsp;&nbsp;Pro linky 20, 131 a 200 prosím sledujte vyvěšený jízdní řád.&nbsp;&nbsp;+ + + </marquee></font></b></td>
+    <!--<td colspan="1"><font color="DDBB00" face="OohBahn"><></font></td>-->
     </tr>
 </table>
 
 <script>
     const schedules = {
+        borislavka: [
+            { line: '369', time: '04:19', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '04:49', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '05:19', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '05:42', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '06:03', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '06:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '06:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '07:03', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '07:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '07:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '08:23', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '08:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '09:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '09:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '10:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '10:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '11:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '11:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '12:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '12:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '13:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '13:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '14:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '14:33', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '14:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '15:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '15:33', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '15:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '16:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '16:33', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '16:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '17:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '17:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '18:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '18:48', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '19:18', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '19:49', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '20:19', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '20:49', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '21:19', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '22:14', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '23:14', destination: 'Praha,&nbsp;KOBYLISY' },
+
+            { line: '369', time: '00:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '05:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '05:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '06:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '06:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:17', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:47', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '08:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '08:17', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '08:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '09:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '09:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '10:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '10:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '11:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '11:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '12:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '12:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '13:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '13:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '14:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '14:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '15:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '15:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '15:47', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '16:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '16:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '16:47', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '17:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '17:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '17:47', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '18:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '18:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '19:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '19:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '20:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '20:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '21:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '21:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '22:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '22:32', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '23:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' }
+        ],
+        goetheho: [
+            { line: '349', time: '05:09', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '05:39', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '05:54', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:09', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:24', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:34', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:44', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:54', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:04', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:14', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:29', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:44', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:59', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '08:14', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '08:34', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '09:04', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '13:59', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:14', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:29', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:44', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:59', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:14', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:29', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:44', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:59', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:14', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:29', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:44', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:59', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:14', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:29', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:44', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '18:04', destination: 'Praha,&nbsp;KOBYLISY' },
+
+            { line: '349', time: '05:47', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '06:17', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '06:37', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '06:52', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '07:07', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '07:27', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '07:42', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '08:02', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '08:37', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '08:57', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '09:22', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '13:22', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '13:52', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:22', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:42', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:57', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:12', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:27', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:42', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:57', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:12', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:27', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:42', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:57', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:12', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:27', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:42', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:57', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:12', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:27', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:57', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' }
+        ],
         kobylisy: [
-            { line: '369', time: '05:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '05:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '06:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '05:45', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '06:15', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '06:35', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '06:50', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '07:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '07:15', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '07:05', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '07:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '07:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '07:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '07:45', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '08:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '08:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '08:15', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '08:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '08:35', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '08:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '09:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '349', time: '09:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '13:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '13:50', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+
+            { line: '369', time: '00:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '05:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '05:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '06:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '06:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:15', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '07:45', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '08:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '08:15', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '08:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '09:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '09:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '10:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '10:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
@@ -96,78 +345,77 @@
             { line: '369', time: '12:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '12:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '13:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '13:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '13:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '13:50', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '14:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '14:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '14:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '14:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '14:50', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '14:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '15:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '15:05', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '15:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '15:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '15:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '15:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '15:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '15:45', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '15:50', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '15:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '16:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '16:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '16:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '16:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '16:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '16:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '16:45', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '16:50', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '16:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '17:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '17:05', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '17:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '17:20', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '17:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '17:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '369', time: '17:35', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '17:40', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '17:45', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '17:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
             { line: '369', time: '18:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '18:10', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '18:25', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
-            { line: '349', time: '18:55', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' }
+            { line: '369', time: '18:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '19:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '19:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '20:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '20:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '21:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '21:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '22:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '22:30', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '369', time: '23:00', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' }
         ],
         melnik: [
-            { line: '369', time: '04:07', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '04:37', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '05:00', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '05:07', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '05:30', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '05:45', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '05:51', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '06:00', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '06:06', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '06:15', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '06:25', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '06:35', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '06:36', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '06:45', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '06:51', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '06:55', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '07:00', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '07:05', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '07:06', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '07:20', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '07:35', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '07:36', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '07:50', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '08:05', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '08:11', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '08:25', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '08:36', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '349', time: '08:55', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '13:50', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:05', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:20', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:35', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:50', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:05', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:20', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:35', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:50', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:05', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:20', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:35', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:50', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:05', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:20', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:35', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:55', destination: 'Praha,&nbsp;KOBYLISY' },
+
+            { line: '369', time: '04:07', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '04:37', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '05:07', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '05:30', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '05:51', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '06:06', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '06:36', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '06:51', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '07:06', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '07:36', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '08:11', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '369', time: '08:36', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '09:06', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '09:36', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '10:06', destination: 'Praha,&nbsp;KOBYLISY' },
@@ -180,27 +428,16 @@
             { line: '369', time: '13:36', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '14:06', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '14:21', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '14:20', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '14:36', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '14:35', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '15:06', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '15:21', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '15:20', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '15:35', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '15:36', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '15:50', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '16:06', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '16:21', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '16:35', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '16:36', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '16:50', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '17:06', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '17:20', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '17:35', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '17:36', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '349', time: '17:55', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '18:06', destination: 'Praha,&nbsp;KOBYLISY' },
-            { line: '369', time: '18:30', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '18:36', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '19:06', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '19:37', destination: 'Praha,&nbsp;KOBYLISY' },
@@ -209,6 +446,73 @@
             { line: '369', time: '21:07', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '22:02', destination: 'Praha,&nbsp;KOBYLISY' },
             { line: '369', time: '23:02', destination: 'Praha,&nbsp;KOBYLISY' }
+        ],
+        sibirskenamesti: [
+            { line: '349', time: '05:10', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '05:40', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '05:55', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:10', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:25', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:35', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:45', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '06:55', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:05', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:15', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:30', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '07:45', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '08:00', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '08:15', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '08:35', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '09:05', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:00', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:15', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:30', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '14:45', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:00', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:15', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:30', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '15:45', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:00', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:15', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:30', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '16:45', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:00', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:15', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:30', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '17:45', destination: 'Praha,&nbsp;KOBYLISY' },
+            { line: '349', time: '18:05', destination: 'Praha,&nbsp;KOBYLISY' },
+
+            { line: '349', time: '05:46', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '06:16', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '06:36', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '06:51', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '07:06', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '07:26', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '07:41', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '08:01', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '08:36', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '08:56', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '09:21', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '13:21', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '13:51', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:21', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:41', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '14:56', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:11', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:26', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:41', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '15:56', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:11', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:26', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:41', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '16:56', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:11', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:26', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:41', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '17:56', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:11', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:26', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' },
+            { line: '349', time: '18:56', destination: 'Mělník,&nbsp;Aut.&nbsp;Nádr.' }
         ]
     };
 
@@ -237,7 +541,7 @@
             })
             .filter(({ timeDifference }) => timeDifference >= 0) // Get upcoming departures
             .sort((a, b) => a.departureTime - b.departureTime) // Sort by time
-            .slice(0, 4); // Take the first four
+            .slice(0, 7); // Take the first seven
 
         if (upcomingDepartures.length === 0) {
             const noDataRow = document.createElement('tr');
@@ -246,7 +550,7 @@
         } else {
             upcomingDepartures.forEach(({ line, destination, timeDifference, departureTime }) => {
                 const row = document.createElement('tr');
-                const displayTime = timeDifference < 60 ? `&nbsp;${Math.round(timeDifference)}'&nbsp;` : formatTime(departureTime);
+                const displayTime = timeDifference < 60 ? `&nbsp;&nbsp;&nbsp;${Math.round(timeDifference)}'&nbsp;` : formatTime(departureTime);
                 row.innerHTML = `<td>${line}</td><td>${destination}</td><td>${displayTime}</td>`;
                 tableBody.appendChild(row);
             });
@@ -254,8 +558,11 @@
     };
 
     const refreshTables = () => {
+        updateTable('borislavka', schedules.borislavka);
+        updateTable('goetheho', schedules.goetheho);
         updateTable('kobylisy', schedules.kobylisy);
         updateTable('melnik', schedules.melnik);
+        updateTable('sibirskenamesti', schedules.sibirskenamesti);
     };
 
     // Initial call to populate the tables immediately
